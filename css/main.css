@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Qwigley);
+
+/* NAV_MENU */
+  .headerTXT{
+    text-align: center;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  @supports (position: sticky) {
+  /*
+    body {
+      padding-top: 0;
+    }
+  */
+
+    header {
+      position: sticky;
+    }
+
+  }
+
+  .navbar {
+    position: relative;
+    height: 90px;
+    width: 100%;
+    transition: 0.5s ease;
+  }
+  .brandN
+  {
+    font-family: 'Qwigley', cursive;
+    font-size: 70px;
+    color:#000;
+
+  }
+
+  .elMenu{
+    display: none;
+  }
+
+
+
+  .navbar .nav {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+  }
+
+  .navbar .nav .item {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 300;
+    line-height: 80px;
+    margin-right: 20px;
+    transition: 0.5s ease;
+  }
+
+  .navbar .nav .item .contact {
+    display: inline-block;
+    background-color: #fff;
+    height: 40px;
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.5s ease;
+  }
+
+  .navbar .nav .item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    transition: 0.5s ease;
+  }
+
+
+  .navbar .logo {
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 400px;
+    height: 70px;
+  /*   background-color: firebrick; */
+    transition: 0.5s ease;
+  }
+
+
+
+  .navbar .logo img {
+    display: none;
+  }
+
+  .scrolled {
+   transition: 0.5s ease;
+  }
+
+  .scrolled.navbar {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease;
+
+  }
+
+
+  .scrolled.navbar .nav .item {
+    line-height: 40px;
+    transition: 0.5s ease;
+  }
+
+
+
+  .scrolled.navbar .nav .item .contact {
+    display: inline-block;
+    color: black;
+    background-color: #fff;
+    height: 40px;
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.5s ease;
+
+  }
+
+  .scrolled.navbar .logo {
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 400px;
+    height: 70px;
+  /*   background-color: firebrick; */
+    transition: 0.5s ease;
+  }
+
+  .scrolled.navbar .logo h1.brandN
+  {
+    font-family: 'Qwigley', cursive;
+    font-size: 50px;
+    color:#fff;
+    transition: 0.5s ease;
+
+  }
+
+  .scrolled.navbar .nav .item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+
+
+/* SLIDER */
+.sliderMain{
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* BIO */
+
+.bioIntro{
+  margin-top: 150px;
+
+}
+
+.name{
+  color: #ff4b69;
+  font-family:'Qwigley', cursive;
+  font-size: 70px;
+}

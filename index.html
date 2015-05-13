@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>Stephanie Espinoza</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+    <link rel="stylesheet" href="bower_components/slick.js/slick/slick.css">
+    <link rel="stylesheet" href="bower_components/slick.js/slick/slick-theme.css">
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <ul class="nav">
+          <li class="item">
+            <a href="#">Home</a>
+          </li>
+
+          <li class="item">
+            <a class="links" href="#about">About Me</a>
+          </li>
+
+          <li class="item">
+            <a href="#skills">Skills and Tools</a>
+          </li>
+
+          <li class="item">
+            <a href="#portfolio">My Portfolio</a>
+          </li>
+          <li class="item">
+            <a href="#cntct" class="contact">Contact</a>
+          </li>
+          <button data-dropdown="drop" aria-controls="drop" aria-expanded="false" class="small elMenu dropdown"><img src="img/menuButtonR.png"></button><br>
+            <ul id="drop" data-dropdown-content class="f-dropdown" role="menu" aria-hidden="false" tabindex="-1">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#skills">Skills and Tools</a></li>
+              <li><a href="#portfolio">My Portfolio</a></li>
+              <li><a href="#cntct">Contact</a></li>
+            </ul>
+        </ul>
+
+        <div class="logo">
+          <a href="#"><h1 class="brandN">Stephanie A. Espinoza</h1></a>
+        </div>
+      </div>
+    </header>
+
+<!--     SLIDER -->
+    <div class="large-12 columns sliderMain">
+      <div class="fade">
+        <div><img src="img/steph-slide-1.png"></div>
+        <div><img src="img/steph-slide-2.png"></div>
+        <div><img src="img/steph-slide-3.png"></div>
+      </div>
+    </div>
+    <div class="large-12 columns">
+      <div class="large-5 large-centered columns bioIntro">
+        <h2 class="name">Stephanie Alesandra Espinoza </h2>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="bower_components/foundation/js/foundation.js"></script>
+  <script type="text/javascript" src="bower_components/slick.js/slick/slick.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script>
+    $('.fade').slick({
+        autoplay: true,
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      });
+  </script>
+</html>
