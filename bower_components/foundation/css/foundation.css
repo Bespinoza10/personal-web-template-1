@@ -172,7 +172,7 @@ select {
 .columns:last-child,
 .columns +
 .columns:last-child {
-  float: right; }
+  float: left; }
 .column + .column.end,
 .columns + .column.end, .column +
 .columns.end,
@@ -3834,17 +3834,17 @@ ul.pagination {
 
 /* Progress Bar */
 .progress {
-  background-color: #F6F6F6;
-  border: 1px solid white;
+/*   background-color: #F6F6F6; */
+/*   border: 1px solid white; */
   height: 1.5625rem;
   margin-bottom: 0.625rem;
   padding: 0.125rem; }
   .progress .meter {
-    background: #008CBA;
+/*     background: #008CBA; */
     display: block;
     height: 100%; }
   .progress.secondary .meter {
-    background: #e7e7e7;
+/*     background: #e7e7e7; */
     display: block;
     height: 100%; }
   .progress.success .meter {
@@ -5298,8 +5298,7 @@ h6 {
   margin-bottom: 0.5rem; }
 
 hr {
-  border: solid #DDDDDD;
-  border-width: 1px 0 0;
+
   clear: both;
   height: 0;
   margin: 1.25rem 0 1.1875rem; }
