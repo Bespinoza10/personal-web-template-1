@@ -19,16 +19,8 @@
           <li class="item">
             <a class="links" href="#about">About Me</a>
           </li>
-
           <li class="item">
-            <a href="#skills">Skills and Tools</a>
-          </li>
-
-          <li class="item">
-            <a href="#portfolio">My Portfolio</a>
-          </li>
-          <li class="item">
-            <a href="#cntct" class="contact">Contact</a>
+            <a href="#contact" class="contact">Contact</a>
           </li>
           <button data-dropdown="drop" aria-controls="drop" aria-expanded="false" class="small elMenu dropdown"><img src="img/menuButtonR.png"></button><br>
             <ul id="drop" data-dropdown-content class="f-dropdown" role="menu" aria-hidden="false" tabindex="-1">
@@ -55,7 +47,7 @@
       </div>
     </div>
 <!--     ABOUT SECTION -->
-    <div class="large-12 columns">
+    <div id="about" class="large-12 columns">
       <div class="large-5 large-centered columns bioIntro">
         <h2 class="name">Stephanie Alesandra Espinoza </h2>
       </div>
@@ -117,7 +109,7 @@
 
 				 ?>
 
-    <div class="large-12 columns contactForm">
+    <div id="contact" class="large-12 columns contactForm">
     	<div class="large-10 large-centered columns forma">
 
 
